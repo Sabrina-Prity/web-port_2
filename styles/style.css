@@ -24,6 +24,9 @@
     color: #737272;
 }
 
+.text-center{
+    text-align: center;
+}
 
 .header{
     background-image: url('../images/banner/banner1.png');
@@ -66,4 +69,86 @@
     font-weight: 700px;
     color: whi;
     color: #ffff;
+}
+
+
+/* Main style */
+
+main{
+    padding: 130px 206px;
+}
+/* Failure Styles */
+
+.failure-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    
+}
+.failure-section img{
+    width: 500px;
+}
+.failure-column p, li{
+    font-size: 16px;
+}
+
+.about{
+    width: 420px;
+}
+
+.failure-title{
+    width: 280px;
+    align-items: left;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 200px;
+    margin-bottom: 24px;
+}
+
+.failure-dec{
+    width: 416px;
+    margin-bottom: 16px;
+}
+
+.points{
+    width: 350px;
+    margin-left: -40px;
+}
+
+.points li{
+    list-style: none;
+}
+
+/* My Plan Styles */
+
+.my-plans{
+    margin-top: 130px;
+}
+.plan-title{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 55px;
+}
+
+.all-plan{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.plan{
+    text-align: center;
+}
+
+.plan h2{
+    color:#151414;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.plan h4{
+    color:#737272;
+    font-size: 20px;
+    font-weight: 500px;
 }
